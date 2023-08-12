@@ -68,8 +68,6 @@ def start(token, descriptions, time, end):
                 json={"bio": description + end}
             )
             
-            print(response.json())
-            
             if response.status_code == 200: print(f"{Color.gray}[{Color.light_green}+{Color.gray}] {Color.white}Description changé")
             else: print(f"{Color.gray}[{Color.red}-{Color.gray}] {Color.white}Erreur lors de la requête:", response.json())
                 
