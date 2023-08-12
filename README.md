@@ -2,13 +2,15 @@
 
 Ce programme Python permet de changer automatiquement la description d'un compte Discord à intervalles réguliers. Il utilise le module `requests` pour envoyer des requêtes PATCH à l'API Discord, et le module `pystyle` pour le design.
 
+![Aperçu du script](image.png)
+
 ## Installation des modules
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-ou vous pouvez simplement lancer le start.bat
+ou vous pouvez simplement lancer le `start.bat`.
 
 ## Utilisation du programme
 
