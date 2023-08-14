@@ -85,7 +85,7 @@ def help():
           f" {Color.turquoise}exit      {Color.cyan}Fermer le programme\n")
 
 while True:
-    commande = input(f' {Color.green}┌──({Color.light_blue}root@server-cloner{Color.green})-[{Color.white}~{Color.green}]\n' +
+    commande = input(f' {Color.green}┌──({Color.light_blue}root@description-changer{Color.green})-[{Color.white}~{Color.green}]\n' +
                      f' {Color.green}└─$ {Color.white}')
     print(' ')
     if commande.startswith('help'):
